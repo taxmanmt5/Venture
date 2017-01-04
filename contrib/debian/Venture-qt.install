@@ -1,0 +1,5 @@
+Venture-qt usr/bin
+share/pixmaps/Venture32.xpm usr/share/pixmaps
+share/pixmaps/Venture80.xpm usr/share/pixmaps
+debian/Venture-qt.desktop usr/share/applications
+debian/Venture-qt.protocol usr/share/kde4/services/

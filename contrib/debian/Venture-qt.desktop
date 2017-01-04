@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Venture
+Comment=Venture P2P Cryptocurrency
+Comment[fr]=Venture, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Venture, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/Venture-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/Venture80.xpm
+MimeType=x-scheme-handler/Venture;
+Categories=Office;
