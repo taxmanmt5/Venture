@@ -46,7 +46,7 @@ Value getmininginfo(const Array& params, bool fHelp)
     obj.push_back(Pair("Difficulty",    diff));
 
     obj.push_back(Pair("Block Value",    (uint64_t)GetProofOfWorkReward(0)));
-    obj.push_back(Pair("Net MH/s",     GetPoWMHashPS()));
+    obj.push_back(Pair("netmhashps",     GetPoWMHashPS()));
     obj.push_back(Pair("Net Stake Weight", GetPoSKernelPS()));
     obj.push_back(Pair("Errors",        GetWarnings("statusbar")));
     obj.push_back(Pair("Pooled Tx",      (uint64_t)mempool.size()));
