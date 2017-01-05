@@ -48,7 +48,7 @@ unsigned int nPowTargetSpacing = 2 * 60; // 2 minutes Pow blocks
 unsigned int nModifierInterval = 16 * 60; // 16 minutes
 
 
-unsigned int nStakeTargetSpacing = 20; // 20 seconds Pos blocks
+unsigned int nStakeTargetSpacing = 2 * 60; // 20 seconds Pos blocks
 unsigned int nStakeMinAge = 10 * 60 * 60; // 10 hours
 unsigned int nStakeMaxAge = 7 * 24 * 60 * 60; // 7 days
 
