@@ -56,8 +56,8 @@ static const int fHaveUPnP = false;
 static const uint256 hashGenesisBlock("000009c4df6e4a440595cb098f2d8659ecef2b555772d8069bea867fd00b269a");
 static const uint256 hashGenesisBlockTestNet("000009c4df6e4a440595cb098f2d8659ecef2b555772d8069bea867fd00b269a");
 
-inline int64_t PastDrift(int64_t nTime)   { return nTime - 6 * 60; } // up to 10 minutes from the past
-inline int64_t FutureDrift(int64_t nTime) { return nTime + 6 * 60; } // up to 10 minutes from the future
+inline int64_t PastDrift(int64_t nTime)   { return nTime - 10 * 60; } // up to 10 minutes from the past
+inline int64_t FutureDrift(int64_t nTime) { return nTime + 10 * 60; } // up to 10 minutes from the future
 
 extern libzerocoin::Params* ZCParams;
 extern CScript COINBASE_FLAGS;
