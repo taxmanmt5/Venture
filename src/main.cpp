@@ -55,7 +55,7 @@ unsigned int nStakeMaxAge = 7 * 24 * 60 * 60; // 7 days
 
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
-int nCoinbaseMaturity = 80; // 90 in total count
+int nCoinbaseMaturity = 35; // 90 in total count
 
 uint256 nBestChainTrust = 0;
 uint256 nBestInvalidTrust = 0;
